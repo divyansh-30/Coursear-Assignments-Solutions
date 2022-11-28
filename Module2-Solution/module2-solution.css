@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+section {
+  display: inline-grid;
+  border: 2px solid black;
+  margin: 20px;
+  background-color: grey;
+  width:370px;
+
+
+}
+
+h2 {
+  border: 1px solid black;
+  float: right;
+  position: absolute;
+
+}
+
+.section1 > h2 {
+  background-color: pink;
+}
+
+.section2 > h2 {
+  background-color: tomato;
+}
+
+.section3 > h2 {
+  background-color: #eaea9d;
+}
+
+section > p {
+  margin-top:30px;
+  padding: 5px;
+}
